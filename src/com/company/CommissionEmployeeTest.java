@@ -15,7 +15,9 @@ public class CommissionEmployeeTest {
         System.out.printf("%s: %.2f%n", "Commission Rate", employee.getCommissionRate());
         System.out.printf("%s: %.2f%n", "Earning", employee.earnings());
 
+        System.out.println();
         System.out.println("Setting Gross Sales to 7500 and Commission Rate to 0.6");
+        System.out.println();
         employee.setGrossSales(7500);
         employee.setCommissionRate(0.6);
 
